@@ -15,7 +15,7 @@ void loop() {
  
   unsigned long startTime = micros();
 
-  for (int i=0; i<7473; i++) {
+  for (int i=0; i<8153; i++) {
     digitalWrite(pul, HIGH);
     delayMicroseconds(47);
     digitalWrite(pul, LOW);

@@ -15,11 +15,11 @@ void loop() {
  
   unsigned long startTime = micros();
 
-  for (int i=0; i<934; i++) {
+  for (int i=0; i<20382; i++) {
     digitalWrite(pul, HIGH);
-    delayMicroseconds(400);
+    delayMicroseconds(47);
     digitalWrite(pul, LOW);
-    delayMicroseconds(400);
+    delayMicroseconds(47);
   }
   
   unsigned long endTime = micros();
